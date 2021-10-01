@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   font-family: "Scheherazade New", serif;
+  color: #fff;
 }
 
 section {
@@ -15,17 +16,7 @@ section {
   justify-content: space-between;
   align-items: center;
   background: #000;
-  color: #fff;
 }
-/*section {
-position: relative;
-top: 0;
-left: 0;
-width: 100%;
-padding: 50px;
-display: flex;
-align-items: center;
-}*/
 
 section #demo {
   position: fixed;
@@ -42,8 +33,7 @@ li {
   font-size: 1.5em;
 }
 article {
-  position:fixed;
-
+  position: fixed;
 }
 h1 {
   text-transform: uppercase;
@@ -73,23 +63,25 @@ header .topnav {
   border-radius: 6px;
 }
 .club {
+  background-image: url(-aikido.jpg);
+  background-size: cover;
   position: relative;
-  top: 100px;
+  bottom: 0;
   margin-top: 100px;
-background: #000;
-height: 80vh;
+  padding-top: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 0px;
+  height: 100vh;
 
 }
-.club h2 {
+h2 {
   position: relative;
-  color: #fff;
   font-size: 3em;
 }
 .club p {
   position: relative;
-  color: #fff;
-  font-size: 1.2em;
-
+  font-size: 1em;
 }
 .sticky-top {
   position: fixed;
