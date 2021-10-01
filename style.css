@@ -9,25 +9,24 @@
 }
 
 section {
-  position: absolute;
   width: 100%;
   min-height: 100vh;
   padding: 100px;
   display: flex;
-  /*justify-content: space-between;
-  align-items: center;*/
+  justify-content: space-between;
+  align-items: center;
   background: #000;
   color: #fff;
 }
-section {
-position: absolute;
+/*section {
+position: relative;
 top: 0;
 left: 0;
 width: 100%;
 padding: 50px;
 display: flex;
 align-items: center;
-}
+}*/
 
 
 section #demo {
@@ -37,6 +36,7 @@ section #demo {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  pointer-events: none;
 }
 li {
   display: inline-block;
@@ -72,5 +72,17 @@ header .topnav {
 }
 .connect, .forget {
   border-radius: 6px;
-
+}
+.club {
+  background: #000;
+}
+.club h2 {
+  position: relative;
+  color: #fff;
+  font-size: 3em;
+}
+.club p {
+  position: relative;
+  color: #fff;
+  font-size: 1.2em;
 }
