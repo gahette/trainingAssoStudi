@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   font-family: "Scheherazade New", serif;
-  color: #fff;
+  
 }
 
 section {
@@ -15,7 +15,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #000;
+  background: #000000;
 }
 
 section #demo {
@@ -31,14 +31,19 @@ li {
   display: inline-block;
   padding: 10px;
   font-size: 1.5em;
+  font-weight: 700;
 }
 article {
   position: fixed;
+  color: rgba(30, 30, 30,0.7);
+  font-size: 1.8em;
 }
 h1 {
   text-transform: uppercase;
   font-size: 6rem;
-  padding-right: 10px;
+}
+article p {
+  padding-right: 100px;
 }
 
 header .topnav {
@@ -66,13 +71,16 @@ header .topnav {
   background-image: url(-aikido.jpg);
   background-size: cover;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
   bottom: 0;
-  margin-top: 100px;
-  padding-top: 200px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 0px;
+  margin-top: 50px;
+  padding: 50px;
+  
   height: 100vh;
+  color: rgba(138, 106, 106, 0.8);
 
 }
 h2 {
@@ -81,7 +89,8 @@ h2 {
 }
 .club p {
   position: relative;
-  font-size: 1em;
+  font-size: 1.2em;
+  font-weight: 700;
 }
 .sticky-top {
   position: fixed;
