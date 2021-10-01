@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap");
 
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -28,9 +27,8 @@ display: flex;
 align-items: center;
 }*/
 
-
 section #demo {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -44,17 +42,17 @@ li {
   font-size: 1.5em;
 }
 article {
-  z-index: 1000;
+  position:fixed;
+
 }
 h1 {
   text-transform: uppercase;
- font-size: 6rem;
- padding-right: 10px;
-}  
-
+  font-size: 6rem;
+  padding-right: 10px;
+}
 
 header .topnav {
-  position:fixed;
+  position: fixed;
   top: 50px;
   left: 0;
   padding: 10px;
@@ -70,11 +68,17 @@ header .topnav {
   width: 12rem;
   border-radius: 6px;
 }
-.connect, .forget {
+.connect,
+.forget {
   border-radius: 6px;
 }
 .club {
-  background: #000;
+  position: relative;
+  top: 100px;
+  margin-top: 100px;
+background: #000;
+height: 80vh;
+
 }
 .club h2 {
   position: relative;
@@ -85,4 +89,8 @@ header .topnav {
   position: relative;
   color: #fff;
   font-size: 1.2em;
+
+}
+.sticky-top {
+  position: fixed;
 }
