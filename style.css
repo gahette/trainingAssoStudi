@@ -24,7 +24,6 @@ section #demo {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  pointer-events: none;
 }
 li {
   display: inline-block;
@@ -66,22 +65,18 @@ header .topnav {
 .forget {
   border-radius: 6px;
 }
-.club {
-  background-image: url(-aikido.jpg);
-  background-size: cover;
+aside {
   position: relative;
-  /*display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;*/
+  background: rgb(30, 30, 30);
   bottom: 0;
   margin-top: 50px;
   padding: 50px;
   z-index: 1000;
   height: 100vh;
-  color: beige;
+  width: 100vw;
+  color:white;
 }
-.back {
+.home {
   color: white;
   font-size: 1rem;
   text-align: center;
@@ -89,30 +84,25 @@ header .topnav {
   border: 1px solid white;
   float: right;
 }
-.back a:link {
+.home a:link {
   text-decoration: none;
 }
-.back {
+.home {
   color: #fff;
 }
-.back:hover {
+.home:hover {
   color: #0f0;
 }
 h2 {
-  font-size: 3em;
+  font-size: 3rem;
 }
-h2,
-p {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-.club p {
-  font-size: 1.2em;
+.menu p {
+  font-size: 1.2rem;
   font-weight: 700;
   text-align: justify;
 }
-.sticky-top {
-  position: fixed;
+.headmenu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
