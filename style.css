@@ -6,8 +6,7 @@
   padding: 0;
   font-family: "Scheherazade New", serif;
 }
-
-section {
+wrapper {
   width: 100%;
   min-height: 100vh;
   padding: 100px;
@@ -16,8 +15,7 @@ section {
   align-items: center;
   background: #000000;
 }
-
-section #demo {
+#demo {
   position: fixed;
   top: 0;
   left: 0;
@@ -28,13 +26,13 @@ section #demo {
 li {
   display: inline-block;
   padding: 10px;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 article {
   position: fixed;
   color: rgba(30, 30, 30, 0.7);
-  font-size: 1em;
+  font-size: 1rem;
 }
 h1 {
   text-transform: uppercase;
@@ -65,16 +63,17 @@ header .topnav {
 .forget {
   border-radius: 6px;
 }
-aside {
+section {
   position: relative;
   background: rgb(30, 30, 30);
-  bottom: 0;
+  top: 0;
   margin-top: 50px;
   padding: 50px;
   z-index: 1000;
   height: 100vh;
   width: 100vw;
-  color:white;
+  color: white;
+  border: 6px solid greenyellow;
 }
 .home {
   color: white;
@@ -96,7 +95,7 @@ aside {
 h2 {
   font-size: 3rem;
 }
-.menu p {
+section p {
   font-size: 1.2rem;
   font-weight: 700;
   text-align: justify;
