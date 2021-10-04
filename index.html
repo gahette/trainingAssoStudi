@@ -81,9 +81,9 @@
       </div>
       <!--Barre de navigation-->
       <header id="accueil">
-          <nav class="topnav navbar navbar-expand-md navbar-dark bg-faded">
+          <nav class="topnav navbar navbar-expand-md navbar-dark" aria-labelledby="navbarToggler01">
             <a class="navbar-brand" href="#"
-              ><img src="caligraph.png" width="50" alt="logo" />
+              ><img src="caligraph.png" width="15" alt="logo" />
               Aïkido club entertainment</a
             >
             <button
@@ -137,6 +137,7 @@
             <video id="demo" autoplay loop muted>
               <source src="demo.mp4" type="video/mp4" />
               <source src="demo.webm" type="video/webm" />
+              <track label="French" kind="captions" srclang="fr" src="resources/demo-fr.vtt" default> <!--supprimer erreur sur vscode pas bien compris-->
               Cette vidéo ne peut être lu par votre navigateur
             </video>
             <article class="d-none d-sm-block">
@@ -195,6 +196,43 @@
             </div>
           </div>
         </div>
+        <nav class="sectionnav navbar navbar-expand-md navbar-light btn-success" aria-labelledby="navbarToggler01">
+          <a class="navbar-brand" href="#"
+            ><img src="caligraph.png" width="15" alt="logo" />
+            Aïkido club entertainment</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggler01"
+            aria-controls="navbarToggler01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler01">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#accueil">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#club">Le club</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#inscription"
+                  >Nous rejoindre</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="actualitees.html"
+                  >Actualitées</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
       </section>
   
       <section id="inscription">
@@ -234,9 +272,83 @@
             </div>
           </div>
         </div>
+        <nav class="sectionnav navbar navbar-expand-md navbar-light bg-success" aria-labelledby="navbarToggler01">
+          <a class="navbar-brand" href="#"
+            ><img src="caligraph.png" width="15" alt="logo" />
+            Aïkido club entertainment</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggler01"
+            aria-controls="navbarToggler01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler01">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#accueil">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#club">Le club</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#inscription"
+                  >Nous rejoindre</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="actualitees.html"
+                  >Actualitées</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
       </section>
+<footer>
+  <nav class="bottomnav navbar navbar-expand-md navbar-dark" aria-labelledby="navbarToggler01">
+    <a class="navbar-brand" href="#"
+      ><img src="caligraph.png" width="15" alt="logo" />
+      Aïkido club entertainment</a
+    >
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarToggler01"
+      aria-controls="navbarToggler01"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarToggler01">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#accueil">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#club">Le club</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#inscription"
+            >Nous rejoindre</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="actualitees.html"
+            >Actualitées</a
+          >
+        </li>
+      </ul>
     </div>
-<!--todo footer-->
+  </nav>
+</footer>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
       integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
