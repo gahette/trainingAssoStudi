@@ -131,7 +131,7 @@
           </nav>
         </header>
           <!--Accueil-->
-          <wrapper>
+          <div class="homepage">
             <!--TODO voir droit a l'image ?? -->
             <!--video UESHIBA Mitsuteru (Nippon_Budokan_2017)-->
             <video id="demo" autoplay loop muted>
@@ -156,7 +156,7 @@
                 </div>
               </div>
             </article>
-          </wrapper>
+          </div>
   
       <!--Club-->
       <section id="club">
@@ -169,20 +169,18 @@
             <div class="col p-3">
               <p>
                 Aïkido club entertainment a été créé en 1989. <br>
-                ​Nous sommes affilié à la Fédération Française d'Aïkido et de Budo (F.F.A.B.) agréé par le Ministère chargé des Sports. <br>
+                ​Nous sommes affilié à la Fédération Française d'Aïkido et de Budo (F.F.A.B.) agréé par le Ministère chargé des Sports. </p>
                 <address>
                   Venez nous voir : <br>
                   Aïkido club entertainment <br>
                 666 rue de la paix <br>
                 72000 Le Mans. 
                 </address>
-              </p>
             </div>
             <div class="center col p-3 d-none d-md-block">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2669.162772368297!2d0.1882356152731914!3d48.0105650679782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e288c89afbdb3d%3A0xfc31aed83392c350!2sRue%20de%20la%20Paix%2C%2072100%20Le%20Mans!5e0!3m2!1sfr!2sfr!4v1633430790919!5m2!1sfr!2sfr" " allowfullscreen="" loading="lazy" title="adresse du club"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2669.1629581202365!2d0.18823025091789625!3d48.01056147911147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e288c89afbdb3d%3A0xfc31aed83392c350!2sRue%20de%20la%20Paix%2C%2072100%20Le%20Mans!5e0!3m2!1sfr!2sfr!4v1633452908002!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" title="adresse du club"></iframe>
             </div>
           </div>
-        </div>
         <nav class="sectionnav navbar navbar-expand-md navbar-dark btn-secondary" aria-labelledby="navbarToggler01">
           <a class="navbar-brand" href="#"
             ><img src="caligraph.png" width="15" alt="logo" />
@@ -198,7 +196,7 @@
             aria-label="Toggle navigation"
           >
           </button>
-          <div class="collapse navbar-collapse" id="navbarToggler01">
+          <div class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
                 <a class="nav-link active" href="#accueil">Accueil</a>
@@ -242,18 +240,18 @@
                 <fieldset>
                   <legend>Contactez-nous</legend>
                   <div class="row g-3">
+                    <div class="col-2 col-md-3">
                     <label for="disabledTextInput" class="col-form-label"></label>
-                    <div class="col-3">
-                      <input type="text" id="disabledTextInput" class="form-control-sm" placeholder="Nom" required>
-                      <label for="exampleInputEmail1" class="col-form-label"></label>
-                    </div>
-                      <div class="col-3">
+                    <input type="text" id="disabledTextInput" class="form-control-sm" placeholder="Nom" required>
+                  </div>
+                  <div class="col-2 col-md-3">
+                        <label for="exampleInputEmail1" class="col-form-label"></label>
                       <input type="email" class="form-control-sm" id="exampleInputEmail1" placeholder="E-mail" required>
                       </div>
                     </div>
                   <div class="mb-3">
+                    <div class="col-5 col-md-7 col-lg-8">
                     <label for="validationTextarea" class="col-form-label"></label>
-                    <div class="col-6">
                       <textarea class="form-control" rows="2" id="validationTextarea" placeholder="votre message ici ..." required></textarea>
                     </div>
                   </div>

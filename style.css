@@ -6,7 +6,7 @@
   padding: 0;
   font-family: "Scheherazade New", serif;
 }
-wrapper {
+.homepage {
   width: 100%;
   min-height: 100vh;
   padding: 100px;
@@ -53,7 +53,7 @@ header .topnav {
   z-index: 900;
   background: rgba(30, 30, 30, 0.7);
 }
-.navbar-brand{
+.navbar-brand {
   text-transform: uppercase;
   font-size: 1.2rem;
   padding-right: 30px;
@@ -107,12 +107,14 @@ section {
 h2 {
   font-size: 3rem;
 }
-caption,h3 {
+caption,
+h3 {
   caption-side: top;
   font-size: 1.2rem;
   text-align: center;
 }
-section p, address {
+section p,
+address {
   padding-top: 50px;
   font-size: 1.2rem;
   text-align: justify;
@@ -163,26 +165,26 @@ footer .bottomnav {
   z-index: 900;
   background: rgba(30, 30, 30, 0.8);
 }
-@media screen  and (max-width: 576px) {
-#club {
-  width: 100vw;
-  height: 100vh;
+@media screen and (max-width: 576px) {
+  #club {
+    width: 100vw;
+    height: 100vh;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .headmenu {
+    display: flex;
+    flex-direction: column;
+  }
 }
-h2 {
-  font-size: 2rem;
+@media screen and (max-width: 729px) {
+  #inscription {
+    height: 100%;
+  }
 }
-.headmenu {
-  display: flex;
-  flex-direction: column;
+@media screen and (max-width: 1130px){
+  .sectionnav {
+    display: none;
+  }
 }
-}
-@media screen and (max-width: 1130px) {
-#inscription {
-  height: 100%;
-}
-.sectionnav {
-  display: none;
-}
-}
-
-
