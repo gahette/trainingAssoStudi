@@ -7,7 +7,7 @@
     <meta name="Content-Language" content="fr" />
     <meta
       name="Description"
-      content="Club aikido, venez decouvrir notre club "
+      content="Club aikido, venez decouvrir notre club : qu'est ce que l'aïkido ? Etais aussi apellé daïto ryu aïki jutsu, ueshiba ryu jujutsu, ueshiba ryu, aïki budo, kobu budo, aïkinomichi. L’aïkido est un budo (art martial japonais) créé dans les années 1930 par Morihei Ueshiba.  "
     />
     <link rel="stylesheet" href="bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
@@ -79,13 +79,13 @@
           </div>
         </div>
       </div>
+      <h1>Aikido</h1><!--pour referencement (reste invisible)-->
       <!--Barre de navigation-->
       <header id="accueil">
-          <nav class="topnav navbar navbar-expand-md navbar-dark" aria-labelledby="navbarToggler01">
+          <nav class="topnav navbar navbar-expand-lg navbar-dark" aria-labelledby="navbarToggler01">
             <a class="navbar-brand" href="#"
               ><img src="caligraph.png" width="15" alt="logo" />
-              Aïkido club entertainment</a
-            >
+              Aïkido club entertainment </a>
             <button
               class="navbar-toggler"
               type="button"
@@ -143,7 +143,7 @@
             <article class="d-none d-sm-block">
               <div class="row">
                 <div class="col-lg-12 col-md-8">
-                  <h1>L'aïkido</h1>
+                  <h4>L'aïkido</h4>
                   <p>
                     L’aïkido (合気道, aikidō?) est un art martial japonais (budo),
                     fondé par Morihei Ueshiba entre 1925 et 1960. L’aïkido a été
@@ -165,33 +165,25 @@
             <div><a href="#inscription" class="home">nous rejoindre</a></div>
             <div><a href="#accueil" class="home">retour à l'accueil</a></div>
           </div>
-          <div class="row row-cols-1 row-cols-md-2">
-            <div class="col py-3">
+          <div class="content row row-cols-1 row-cols-md-2">
+            <div class="col p-3">
               <p>
-                Aïkido club entertainment a été créé en 1989. br
-                ​Nous sommes affilié à la Fédération Française d'Aïkido et de Budo (F.F.A.B.) agréé par le Ministère chargé des Sports et à l'association Mutokukai France.
-
-
+                Aïkido club entertainment a été créé en 1989. <br>
+                ​Nous sommes affilié à la Fédération Française d'Aïkido et de Budo (F.F.A.B.) agréé par le Ministère chargé des Sports. <br>
+                <address>
+                  Venez nous voir : <br>
+                  Aïkido club entertainment <br>
+                666 rue de la paix <br>
+                72000 Le Mans. 
+                </address>
               </p>
             </div>
-            <div class="col py-3">
-              <p>
-                Ayant atteint sa maturité, grâce au concours de Patrick DESLANDES
-                nouveau Président de la section et Yves MAYOUX enseignant de la
-                section, nouveau Président du Comité Départemental, des interclubs
-                et des stages départementaux ou régionaux sont organisés au dojo
-                de Coulaines. ​ Mars 2009 point d’orgue des manifestations
-                organisées à Coulaines la section Aïkido des JSC se voit confiée
-                l’accueil du stage national féminin dirigé par Maitre TAMURA 8ème
-                DAN et Mme TAKAMIZO 6ème dan venue spécialement du Japon. ​ Le
-                club est affilié à la Fédération Française d'Aïkido et de Budo
-                (FFAB) ​ Les cours ont lieu au dojo Louis RENOU, gymnase du petit
-                Cossec à Coulaines
-              </p>
+            <div class="center col p-3 d-none d-md-block">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2669.162772368297!2d0.1882356152731914!3d48.0105650679782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e288c89afbdb3d%3A0xfc31aed83392c350!2sRue%20de%20la%20Paix%2C%2072100%20Le%20Mans!5e0!3m2!1sfr!2sfr!4v1633430790919!5m2!1sfr!2sfr" " allowfullscreen="" loading="lazy" title="adresse du club"></iframe>
             </div>
           </div>
         </div>
-        <nav class="sectionnav navbar navbar-expand-md navbar-light btn-success" aria-labelledby="navbarToggler01">
+        <nav class="sectionnav navbar navbar-expand-md navbar-dark btn-secondary" aria-labelledby="navbarToggler01">
           <a class="navbar-brand" href="#"
             ><img src="caligraph.png" width="15" alt="logo" />
             Aïkido club entertainment</a
@@ -205,7 +197,6 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarToggler01">
             <ul class="navbar-nav mr-auto">
@@ -237,7 +228,7 @@
             <div><a href="#accueil" class="home">retour à l'accueil</a></div>
           </div>
           <div class="row row-cols-1 row-cols-md-2">
-            <div class="col py-3">
+            <div class="col">
               <p>
                 Les cours sont ouverts à tous les adhérents âgés de 12 ans et plus, quel que soit leurs niveaux.
                 Les tarifs comprennent l'adhésion au club et la licence FFAB pour un an. <br>
@@ -247,13 +238,36 @@
                 La fiche d'inscription complétée : 
                 <a href="#">Télécharger la fiche d'inscription</a>
               </p>
-              </div>
+              <form>
+                <fieldset>
+                  <legend>Contactez-nous</legend>
+                  <div class="row g-3">
+                    <label for="disabledTextInput" class="col-form-label"></label>
+                    <div class="col-3">
+                      <input type="text" id="disabledTextInput" class="form-control-sm" placeholder="Nom" required>
+                      <label for="exampleInputEmail1" class="col-form-label"></label>
+                    </div>
+                      <div class="col-3">
+                      <input type="email" class="form-control-sm" id="exampleInputEmail1" placeholder="E-mail" required>
+                      </div>
+                    </div>
+                  <div class="mb-3">
+                    <label for="validationTextarea" class="col-form-label"></label>
+                    <div class="col-6">
+                      <textarea class="form-control" rows="2" id="validationTextarea" placeholder="votre message ici ..." required></textarea>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-secondary mb-3">envoyer</button>
+                </fieldset>
+              </form>
+            </div>
             
-            <div class="col py-3">
-              <h3>Tarifs</h3>
+            <div class="col p-3">
               <table class="table table-striped text-center">
+                <caption>Tarifs</caption>
+                
                 <thead>
-                <tr class="bg-success text-white">
+                <tr class="bg-secondary text-white">
                   <th scope="col">Catégories</th>
                   <th scope="col">montant</th>
                 </tr>
@@ -277,10 +291,10 @@
                   </tr>
                 </tbody>
               </table>
-              <h3>Horaires</h3>
               <table class="table table-striped text-center">
+                <caption>Horaires</caption>
                 <thead>
-                  <tr class="bg-success text-white">
+                  <tr class="bg-secondary text-white">
                     <th scope="col">Jours</th>
                     <th scope="col">Horaires</th>
                   </tr>
@@ -299,18 +313,20 @@
                       <td>10h00 / 12h00</td>
                     </tr>
                   </tbody>
-                  <tfoot>Cours ouverts à tous</tfoot>
-              </table>
+                </table>
+                <tfoot>
+                 <h3>Cours ouverts à tous</h3> 
+                </tfoot>
             </div>
           </div>
         </div>
-        <nav class="sectionnav navbar navbar-expand-md navbar-light bg-success" aria-labelledby="navbarToggler01">
+        <nav class="sectionnav navbar navbar-expand-md navbar-dark bg-secondary" aria-labelledby="navbarToggler">
           <a class="navbar-brand" href="#"
             ><img src="caligraph.png" width="15" alt="logo" />
             Aïkido club entertainment</a
           >
           <button
-            class="navbar-toggler"
+            class="navbar-toggler
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarToggler01"
@@ -318,7 +334,6 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarToggler01">
             <ul class="navbar-nav mr-auto">
