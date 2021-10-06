@@ -6,7 +6,10 @@
   padding: 0;
   font-family: "Scheherazade New", serif;
 }
-.homepage {
+main {
+  background-color: #000000;
+}
+#homepage {
   width: 100%;
   min-height: 100vh;
   padding: 100px;
@@ -15,7 +18,7 @@
   align-items: center;
   background: #000000;
 }
-#demo {
+#demo, #demo2{
   position: fixed;
   top: 0;
   left: 0;
@@ -42,14 +45,14 @@ article p {
   padding-right: 100px;
 }
 
-header .topnav {
+.topnav {
   position: fixed;
   top: 0px;
   left: 0;
   padding: 10px;
   margin-top: 20px;
   width: 100%;
-  height: 58px;
+  height: 7vh;
   z-index: 900;
   background: rgba(30, 30, 30, 0.7);
 }
@@ -85,7 +88,7 @@ section {
   margin-bottom: 20px;
   padding: 10px;
   width: 100%;
-  height: 6vh;
+  height: 7vh;
 }
 .home {
   color: white;
@@ -104,8 +107,12 @@ section {
 .home:hover {
   color: #868e96;
 }
-h2 {
+h2,h4 {
   font-size: 3rem;
+}
+h4 {
+  color: #fff;
+  z-index: 900;
 }
 caption,
 h3 {
@@ -154,16 +161,21 @@ legend {
   justify-content: space-around;
   align-items: center;
 }
-footer .bottomnav {
+.bottomnav {
   position: fixed;
   bottom: 0;
   left: 0;
   margin-bottom: 20px;
   padding: 10px;
   width: 100%;
-  height: 6vh;
+  height: 7vh;
   z-index: 900;
   background: rgba(30, 30, 30, 0.8);
+}
+.breadcrumb {
+  position: relative;
+  top: 6vh;
+  z-index: 900;
 }
 @media screen and (max-width: 576px) {
   #club {
