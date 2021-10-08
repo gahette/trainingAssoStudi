@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap");
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,300&display=swap');
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /*font-family: "Scheherazade New", serif;*/
   font-family: 'Poppins', sans-serif;
 }
 main, #homepage, section {
@@ -184,7 +183,7 @@ legend {
 .offcanvas {
   background: #868e96;
 }
-wrapper {
+.wrapper {
   position: absolute;
   top: 12vh;
   width: auto;
