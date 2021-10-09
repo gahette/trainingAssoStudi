@@ -176,7 +176,7 @@ legend {
   background: rgba(30, 30, 30, 0.7);
 }
 .breadcrumb {
-  position: absolute;
+  position: relative;
   top: 8vh;
   z-index: 1;
 }
@@ -204,12 +204,26 @@ legend {
 .res1, .res2, .res3 {
   padding-right: 50px;
 }
-@media screen and (max-width:1049px) {
-  .social {
-    display: none;
+@media screen and (max-width: 430px) {
+  .navbar-toggler {
+    background: rgba(30, 30, 30,0.7);
+    margin-top: 10px;
+    position: absolute;
+    right: 10px;
+    top: 7vh;
   }
 }
-
+@media screen and (max-width: 478px) {
+  .ham {
+    background:#868e96 ;
+    margin-top: 10px;
+    position: absolute;
+    right: 30px;
+    top: 7vh;
+  }
+  .card-text {
+    font-size: 00.8rem;
+  }
 @media screen and (max-width: 576px) {
   #club {
     width: 100vw;
@@ -221,6 +235,20 @@ legend {
   .headmenu {
     display: flex;
     flex-direction: column;
+  }
+  article p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 622px) {
+  .btn {
+    background: rgba(30, 30, 30,0.7);
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width:1049px) {
+  .social {
+    display: none;
   }
 }
 @media screen and (max-width: 1092px) {
