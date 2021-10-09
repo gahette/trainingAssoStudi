@@ -1,14 +1,14 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,300&display=swap");
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
-  
+  font-family: "Poppins", sans-serif;
 }
-main, #homepage, section {
+main,
+#homepage,
+section {
   background: rgb(30, 30, 30);
 }
 #homepage {
@@ -16,7 +16,7 @@ main, #homepage, section {
   min-height: 100vh;
   padding: 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 #demo,
@@ -43,10 +43,12 @@ h2 {
   text-transform: uppercase;
   font-size: 5rem;
 }
+h2,
 article p {
   padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 10px;
 }
-
 .topnav {
   position: fixed;
   top: 0px;
@@ -61,8 +63,8 @@ article p {
   align-items: stretch;
 }
 .navbar-toggler {
-height: 5vh;
-top: 0px;
+  height: 5vh;
+  top: 0px;
 }
 .navbar-brand {
   text-transform: uppercase;
@@ -73,7 +75,8 @@ top: 0px;
   width: 12rem;
 }
 .connect,
-.forget, .btn {
+.forget,
+.btn {
   border-radius: 6px;
 }
 section {
@@ -131,7 +134,10 @@ address {
 .content {
   height: 100%;
 }
-address, h4, caption, .home {
+address,
+h4,
+caption,
+.home {
   text-align: center;
 }
 .center {
@@ -190,33 +196,74 @@ legend {
   width: auto;
   height: 100vh;
   margin-right: 10px;
-  
 }
-.card ul{
+.card .archives {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
-.reseaux, .social {
- display: flex;
+.card ul {
+  display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-content: center;
 }
-.res1, .res2, .res3 {
-  padding-right: 50px;
+.reseaux,
+.social {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
 }
+.res1,
+.res2,
+.res3 {
+  padding: 50px;
+}
+
 @media screen and (max-width: 430px) {
   .navbar-toggler {
-    background: rgba(30, 30, 30,0.7);
-    margin-top: 10px;
+    background: rgba(30, 30, 30, 0.7);
+    margin-top: 2px;
     position: absolute;
-    right: 10px;
-    top: 7vh;
+    right: 50px;
+    height: 30px;
+  }
+  .navbar-toggler-icon {
+    border: 1px solid #868e96;
+    width: 20px;
+    height: 20px;
+  }
+  .form-inline {
+    position: absolute;
+    bottom: 2px;
+    font-size: 0.8rem;
+  }
+  .topnav .navbar-brand {
+    display: none;
+  }
+  .navbar-brand {
+    position: relative;
+    bottom: 3vh;
+  }
+  #homepage h2,
+  section h3 {
+    font-size: 1rem;
+  }
+  #homepage p,
+  section p,
+  section address {
+    font-size: 0.6rem;
+  }
+  .headmenu {
+    font-size: 0.7rem;
+  }
+  .breadcrumb {
+    position: fixed;
+    top: 3vh;
+    z-index: 2;
   }
 }
 @media screen and (max-width: 478px) {
   .ham {
-    background:#868e96 ;
+    background: #868e96;
     margin-top: 10px;
     position: absolute;
     right: 30px;
@@ -225,7 +272,7 @@ legend {
   .card-text {
     font-size: 00.8rem;
   }
- #inscription {
+  #inscription {
     height: 100%;
   }
 }
@@ -247,16 +294,17 @@ legend {
 }
 @media screen and (max-width: 622px) {
   .btn {
-    background: rgba(30, 30, 30,0.7);
+    background: rgba(30, 30, 30, 0.7);
     margin-top: 10px;
   }
 }
-@media screen and (max-width:1049px) {
+@media screen and (max-width: 1049px) {
   .social {
     display: none;
   }
-  section {width: 100%;
-}
+  section {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 1092px) {
   #inscription {
@@ -280,8 +328,9 @@ legend {
   }
 }
 @media screen and (min-width: 1049px) {
-#homepage .reseaux, #club .reseaux, #inscription .reseaux{
-  display: none;
-}
-
+  #homepage .reseaux,
+  #club .reseaux,
+  #inscription .reseaux {
+    display: none;
   }
+}
