@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  
 }
 main, #homepage, section {
   background: rgb(30, 30, 30);
@@ -224,6 +225,10 @@ legend {
   .card-text {
     font-size: 00.8rem;
   }
+ #inscription {
+    height: 100%;
+  }
+}
 @media screen and (max-width: 576px) {
   #club {
     width: 100vw;
@@ -250,6 +255,8 @@ legend {
   .social {
     display: none;
   }
+  section {width: 100%;
+}
 }
 @media screen and (max-width: 1092px) {
   #inscription {
@@ -259,11 +266,22 @@ legend {
     display: none;
   }
 }
+@media screen and (max-width: 1110px) {
+  .topnav li {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 1186px) {
+  .bottomnav li {
+    font-size: 0.6rem;
+  }
+  section li {
+    font-size: 0.6rem;
+  }
+}
 @media screen and (min-width: 1049px) {
 #homepage .reseaux, #club .reseaux, #inscription .reseaux{
   display: none;
 }
-}
-  
 
-  
+  }
