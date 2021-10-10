@@ -215,16 +215,16 @@ legend {
 .res1,
 .res2,
 .res3 {
-  padding: 50px;
+  padding-left: 50px;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 360px) {
   .navbar-toggler {
     background: rgba(30, 30, 30, 0.7);
-    margin-top: 2px;
+    margin-top: 1vh;
     position: absolute;
-    right: 50px;
-    height: 30px;
+    right: 10vw;
+    height: 5vh;
   }
   .navbar-toggler-icon {
     border: 1px solid #868e96;
@@ -233,7 +233,7 @@ legend {
   }
   .form-inline {
     position: absolute;
-    bottom: 2px;
+    bottom: 1vh;
     font-size: 0.8rem;
   }
   .topnav .navbar-brand {
@@ -260,6 +260,10 @@ legend {
     top: 3vh;
     z-index: 2;
   }
+  legend {
+    font-size: 1rem;
+    padding-top: 40px;
+  }
 }
 @media screen and (max-width: 478px) {
   .ham {
@@ -270,10 +274,26 @@ legend {
     top: 7vh;
   }
   .card-text {
-    font-size: 00.8rem;
+    font-size: 0.8rem;
   }
   #inscription {
     height: 100%;
+  }
+  h2,
+  h3 {
+    font-size: 1.5rem;
+  }
+  .headmenu {
+    font-size: 0.9rem;
+  }
+  #homepage p,
+  section p,
+  section address {
+    font-size: 0.9rem;
+  }
+  legend {
+    font-size: 1.2rem;
+    padding-top: 40px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -305,26 +325,29 @@ legend {
   section {
     width: 100%;
   }
-}
-@media screen and (max-width: 1092px) {
-  #inscription {
-    height: 100%;
-  }
   #inscription .sectionnav {
     display: none;
   }
-}
-@media screen and (max-width: 1110px) {
-  .topnav li {
-    font-size: 0.6rem;
+  @media screen and (max-width: 1110px) {
+    .topnav li {
+      font-size: 0.5rem;
+    }
+    .bottomnav li {
+      font-size: 0.5rem;
+    }
   }
 }
 @media screen and (max-width: 1186px) {
   .bottomnav li {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
   section li {
     font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 1428px) {
+  #inscription {
+    height: 100%;
   }
 }
 @media screen and (min-width: 1049px) {
